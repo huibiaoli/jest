@@ -7,9 +7,9 @@ Jest可用于模拟导入到要测试的文件中的ES6类。
 
 ES6类是带有一些语法糖的构造函数。因此，ES6类的任何模拟都必须是一个函数或一个实际的ES6类（这又是另一个函数）。 因此，您可以使用[mock functions](MockFunctions.md)模拟它们。
 
-## An ES6 Class Example
+## ES6类示例
 
-We'll use a contrived example of a class that plays sound files, `SoundPlayer`, and a consumer class which uses that class, `SoundPlayerConsumer`. We'll mock `SoundPlayer` in our tests for `SoundPlayerConsumer`.
+我们将使用一个播放声音文件的类的精心设计的示例`SoundPlayer`, 以及一个使用该类的消费者类的示例`SoundPlayerConsumer`. 我们将要在针对`SoundPlayerConsumer`的测试里模拟`SoundPlayer`
 
 ```javascript
 // sound-player.js
