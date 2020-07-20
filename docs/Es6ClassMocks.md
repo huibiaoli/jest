@@ -3,9 +3,9 @@ id: es6-class-mocks
 title: ES6 Class Mocks
 ---
 
-Jest can be used to mock ES6 classes that are imported into files you want to test.
+Jest可用于模拟导入到要测试的文件中的ES6类。
 
-ES6 classes are constructor functions with some syntactic sugar. Therefore, any mock for an ES6 class must be a function or an actual ES6 class (which is, again, another function). So you can mock them using [mock functions](MockFunctions.md).
+ES6类是带有一些语法糖的构造函数。因此，ES6类的任何模拟都必须是一个函数或一个实际的ES6类（这又是另一个函数）。 因此，您可以使用[mock functions](MockFunctions.md)模拟它们。
 
 ## An ES6 Class Example
 
